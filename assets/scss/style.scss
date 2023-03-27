@@ -17,6 +17,13 @@ header{
 		text-align: center;
 		justify-content:space-between;
 		gap: 20vh;
+		.nav-left{
+			a{
+				span:hover{
+					font-size: 2.2rem;
+		  	}
+			}
+		}
 		.nav-right{
 			display: flex;
 			list-style: none;
@@ -118,7 +125,7 @@ header{
 
 // contactページ
 .contacts{
-	padding-top: 35vh;
+	padding-top: 30vh;
 	text-align: center;
 	h1{
 		font-size: 2rem;
