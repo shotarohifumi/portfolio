@@ -19,6 +19,8 @@ header{
 		gap: 20vh;
 		.nav-left{
 			a{
+				text-decoration: none;
+				color: white;
 				span:hover{
 					font-size: 2.2rem;
 		  	}
@@ -29,6 +31,8 @@ header{
 			list-style: none;
 			gap: 3rem;
 			a{
+				text-decoration: none;
+				color: white;
 				&:hover{
 				transform: scale(1.2);
 				}
@@ -39,7 +43,7 @@ header{
 @media screen and (max-width:767px) {
 	header .wrapper{
 		display: block;
-		width: 100vw;
+		width: auto;
 		font-size: 1.5rem;
 		.nav-left{
 			margin-bottom: 1rem;
@@ -86,9 +90,10 @@ header{
 	display: flex;
 	justify-content: space-around;
 	margin-top: 30vh;
+	width: 100vw;
 	figure{
 		cursor: pointer;
-		width: 30%;
+		width: 30vw;
 		&:hover {
 			box-shadow:   
 			0 1.9px 2.5px rgba(65, 64, 64, 0.057),
@@ -136,7 +141,11 @@ header{
 		padding-bottom: 2vh;
 	}
 	a{
+		color: white;
 		border-bottom: double 1px white;
 		font-size: 1.5rem;
+		&:hover{
+			font-size: 1.7rem;
+		}
 	}
 }

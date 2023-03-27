@@ -19,6 +19,10 @@ header .wrapper {
   justify-content: space-between;
   gap: 20vh;
 }
+header .wrapper .nav-left a {
+  text-decoration: none;
+  color: white;
+}
 header .wrapper .nav-left a span:hover {
   font-size: 2.2rem;
 }
@@ -27,6 +31,10 @@ header .wrapper .nav-right {
   list-style: none;
   gap: 3rem;
 }
+header .wrapper .nav-right a {
+  text-decoration: none;
+  color: white;
+}
 header .wrapper .nav-right a:hover {
   transform: scale(1.2);
 }
@@ -34,7 +42,7 @@ header .wrapper .nav-right a:hover {
 @media screen and (max-width: 767px) {
   header .wrapper {
     display: block;
-    width: 100vw;
+    width: auto;
     font-size: 1.5rem;
   }
   header .wrapper .nav-left {
@@ -77,10 +85,11 @@ header .wrapper .nav-right a:hover {
   display: flex;
   justify-content: space-around;
   margin-top: 30vh;
+  width: 100vw;
 }
 .products figure {
   cursor: pointer;
-  width: 30%;
+  width: 30vw;
 }
 .products figure:hover {
   box-shadow: 0 1.9px 2.5px rgba(65, 64, 64, 0.057), 0 5px 6.1px rgba(83, 70, 70, 0.076), 0 10.1px 11.4px rgba(0, 0, 0, 0.086), 0 19.2px 19.8px rgba(146, 122, 122, 0.092), 0 38.4px 34.8px rgba(217, 168, 168, 0.1), 0 101px 74px rgba(224, 119, 119, 0.13);
@@ -121,6 +130,10 @@ header .wrapper .nav-right a:hover {
   padding-bottom: 2vh;
 }
 .contacts a {
+  color: white;
   border-bottom: double 1px white;
   font-size: 1.5rem;
+}
+.contacts a:hover {
+  font-size: 1.7rem;
 }/*# sourceMappingURL=style.css.map */
