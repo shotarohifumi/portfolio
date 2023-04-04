@@ -15,7 +15,8 @@ header {
 	display: flex;
 	justify-content: space-between;
 	flex-direction: column;
-	gap: 30vh;
+	/* gap: 30vh; */
+	gap: 10rem;
 }
 
 header .nav-left {
